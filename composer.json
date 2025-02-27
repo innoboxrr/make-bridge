@@ -1,0 +1,17 @@
+{
+    "name": "innoboxrr/make-bridge",
+    "description": "Puente de comunicación entre una app y make",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Innoboxrr\\MakeBridge\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Homero Raul",
+            "email": "h.raulvc@gmail.com"
+        }
+    ],
+    "require": {}
+}
