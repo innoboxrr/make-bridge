@@ -1,6 +1,6 @@
 {
     "name": "innoboxrr/make-bridge",
-    "description": "Puente de comunicación entre una app y make",
+    "description": "Puente de comunicaci\u00f3n entre una app y make",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -13,5 +13,18 @@
             "email": "h.raulvc@gmail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "orchestra/testbench": "^9",
+        "innoboxrr/larapack-generator": "^5.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Innoboxrr\\MakeBridge\\Providers\\AppServiceProvider",
+                "Innoboxrr\\MakeBridge\\Providers\\AuthServiceProvider",
+                "Innoboxrr\\MakeBridge\\Providers\\EventServiceProvider",
+                "Innoboxrr\\MakeBridge\\Providers\\RouteServiceProvider"
+            ]
+        }
+    }
 }
