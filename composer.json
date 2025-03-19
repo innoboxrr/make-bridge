@@ -4,7 +4,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Innoboxrr\\MakeBridge\\": "src/"
+            "Innoboxrr\\MakeBridge\\": "src/",
+            "Innoboxrr\\MakeBridge\\Database\\Factories\\": "database/factories/"
         }
     },
     "authors": [
@@ -25,6 +26,11 @@
                 "Innoboxrr\\MakeBridge\\Providers\\EventServiceProvider",
                 "Innoboxrr\\MakeBridge\\Providers\\RouteServiceProvider"
             ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Innoboxrr\\MakeBridge\\Tests\\": "tests/"
         }
     }
 }
